@@ -38,37 +38,48 @@ code {
   display: block;
 }
 
-ul,li {
+ul,
+li {
   list-style-type: none;
 }
 
 :root {
-  --background-color:#FFFFFF;
-  --off-background-color:#F6F6F6;
-  --primary-color: #1E5EF3;
+  --background-color: #ffffff;
+  --off-background-color: #f6f6f6;
+  --primary-color: #1e5ef3;
+  --pure-black-color: #000000;
   --black-color: #161616;
-  --off-black-color:#434343;
+  --off-black-color: #434343;
+  --light-gray-color: #979797;
+  --green-tick: #28C800;
   font-size: 10px;
 }
 
 /* || UTILITY CSS ---------------------------------------------------------------------------------*/
 
-.flex{
+.flex {
   display: flex;
 }
 
-.flex-center{
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
   justify-content: center;
   align-items: center;
 }
 
-.max-width-80p{
+.max-width-80p {
   max-width: 80%;
 }
 
-.width-100p{
+.width-100p {
   width: 100%;
 }
 
-
-
+.green-tick{
+  color: var(--green-tick);
+  font-size: 2rem;
+}
