@@ -1,9 +1,17 @@
 import React from "react";
+import { CurrencyConvertor, FeedbackBanner, Footer, IntroBanner, Navbar, PlansBanner, SubscriptionCard } from "../../components";
 
 export const LandingPage = () => {
   return (
     <>
-      <h1>Landing Page</h1>
+      <h5>Landing Page</h5>
+      <Navbar/>
+      <IntroBanner/>
+      <PlansBanner/>
+      <CurrencyConvertor/>
+      <FeedbackBanner />
+      <SubscriptionCard/>
+      <Footer/>
     </>
   );
 };
