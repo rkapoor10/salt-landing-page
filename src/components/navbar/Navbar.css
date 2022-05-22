@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+  width: 9.6rem;
+  height: 3.4rem;
+}
+
+.menu-options {
+  display: flex;
+  margin: 0 5rem 0 5rem;
+  gap: 3rem;
+}
+
+.menu-options li {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+.menu-options li:first-child{
+    color: var(--primary-color);
+}
+
+.menu-options button {
+  border: none;
+  background-color: transparent;
+} 
+
+.menu-options button:first-child {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  color: #161616;
+}
+
+.menu-options button:nth-child(2) {
+  width: 11.5rem;
+  height: 3.8rem;
+  border: 3px solid var(--primary-color);
+  border-radius: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
