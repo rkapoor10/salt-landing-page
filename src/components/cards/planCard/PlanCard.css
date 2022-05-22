@@ -1,0 +1,54 @@
+.plancard-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 28.6rem;
+  height: 59.4rem;
+  padding: 3rem 0;
+  background: var(--background-color);
+  border: 1px solid var(--primary-color);
+  box-shadow: 0.7rem 1.5rem 2rem rgba(0, 0, 0, 0.04);
+  border-radius: 2rem;
+}
+
+.plancard-container h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.plancard-container ul {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+  color: var(--light-gray-color);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  text-align: left;
+}
+
+.plancard-container h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: var(--black-color);
+}
+
+.plancard-container button {
+  border: 3px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 1rem 3rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
