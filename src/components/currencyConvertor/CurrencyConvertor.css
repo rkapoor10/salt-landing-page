@@ -1,0 +1,99 @@
+.currency-convertor-container {
+  max-width: 95%;
+  background: var(--background-color);
+  box-shadow: 2px 2px 70px rgba(0, 0, 0, 0.05),
+    0px 47.0588px 95px rgba(0, 0, 0, 0.03),
+    0px 37.6471px 55.1198px rgba(0, 0, 0, 0.0227778),
+    0px 17.6471px 29.9782px rgba(0, 0, 0, 0.0182222);
+  border-radius: 3.4rem;
+  margin: 7.2rem auto;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 10rem;
+  height: 25vh;
+  justify-content: space-around;
+}
+
+.conversion-rate {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.conversion-rate img {
+  width: 1.6rem;
+  height: 2rem;
+}
+
+.conversion-rate p {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: var(--primary-color);
+}
+
+.convertor-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.convertor-container button {
+  background-color: var(--off-background-color);
+  border-radius: 50%;
+  border: transparent;
+  height: 5rem;
+  width: 5rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  color: #8f8f8f;
+}
+
+.input-group input {
+  padding: 0.2rem 0.5rem;
+  border: transparent;
+  border-radius: 0.25rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.8rem;
+  color: var(--off-black-color);
+  border-bottom: 5px solid transparent;
+}
+
+.input-group input:focus {
+  outline: 1px solid transparent;
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.currency-dropdown {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: var(--off-black-color);
+  border: transparent;
+}
+
+.currency-dropdown option {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
