@@ -1,0 +1,56 @@
+.hamburger-menu-container {
+  background-color: var(--black-color);
+  color: var(--background-color);
+  width: 100%;
+  padding: 2rem 0.5rem;
+  position: fixed;
+  top:-128rem;
+  z-index: 8;
+  transition: 0.5s ease-in-out;
+}
+
+.menu-options-ham {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.menu-options-ham li {
+  cursor: pointer;
+}
+
+.menu-options-ham button {
+  font-size: 2rem;
+}
+
+.ham-btn-login {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1rem;
+  border: none;
+  color: var(--background-color);
+  background-color: var(--black-color);
+  margin-right: auto;
+}
+
+.ham-btn-primary {
+  padding: 1rem 3rem;
+  width: 25rem;
+  background-color: var(--black-color);
+  border: 1px solid var(--background-color);
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: var(--background-color);
+  margin: auto;
+}
+
+.drawer-close{
+
+}
+
+.drawer-open{
+  top: 4rem;
+}

@@ -69,7 +69,11 @@ export const CurrencyConvertor = () => {
           </select>
           <div className="output-group">
             <label>Amount</label>
-            <div className="output-amount">{response.result}</div>
+            {response.result !="" ? (
+              <div className="output-amount">{response.result} </div>
+            ) : (
+              <div className="output-amount">Output</div>
+            )}
           </div>
         </div>
       </div>

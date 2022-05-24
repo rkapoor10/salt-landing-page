@@ -1,7 +1,10 @@
-import React from "react";
+import {useState} from "react";
 import "./Navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { HamburgerMenu } from "../../utilities/Components/Hamburger/Hamburger";
 
 export const Navbar = () => {
+  const [hamToggle, setHamToggle] = useState(false)
   const menuOptions = ["About", "Features", "Pricing", "Testimonials", "Help"];
   return (
     <header>
@@ -18,7 +21,13 @@ export const Navbar = () => {
           <button>Login</button>
           <button>Get Started</button>
         </div>
+        <GiHamburgerMenu className="hamburger-icon" onClick={()=>setHamToggle((hamToggle) => !hamToggle)} />
       </nav>
+      <div>
+        <HamburgerMenu hamToggle={hamToggle}/>
+      </div>
+      {hamToggle && <div className="carpet-bg" onClick={()=>setHamToggle(false)}></div>}
+      
     </header>
   );
 };

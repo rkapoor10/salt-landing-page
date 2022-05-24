@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   max-width: 75%;
+  padding-top: 9vh;
   margin: auto;
 }
 
@@ -56,4 +57,16 @@
 .intro-hero img {
   width: 60rem;
   height: 53rem;
+}
+
+
+@media only screen and (max-width: 800px){
+  .intro-banner{
+    flex-wrap: wrap-reverse;
+  }
+
+  .intro-content button {
+    max-width: 100%;
+    padding: 6rem 5rem;
+  }
 }

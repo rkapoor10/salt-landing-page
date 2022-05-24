@@ -5,6 +5,14 @@ import Carousel from "react-elastic-carousel";
 import { FeedbackCard } from "../../cards/feedbackCard/FeedbackCard";
 
 export const FeedbackBanner = () => {
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2, itemsToScroll: 2, pagination: false },
+    { width: 850, itemsToShow: 3 },
+    { width: 1150, itemsToShow: 4, itemsToScroll: 2 },
+    { width: 1450, itemsToShow: 5 },
+    { width: 1750, itemsToShow: 6 },
+  ];
   return (
     <div className="feedbackbanner-container">
       <h1>Trusted by Thousands of Happy Customer</h1>
@@ -13,7 +21,7 @@ export const FeedbackBanner = () => {
         pleasure when using this crazy noebank.
       </p>
       <div className="carousel">
-        <Carousel itemsToShow={3}>
+        <Carousel breakPoints={breakPoints}>
           <FeedbackCard />
           <FeedbackCard />
           <FeedbackCard />

@@ -52,3 +52,10 @@
   font-weight: 600;
 }
 
+@media only screen and (max-width: 800px){
+  .plancard-container img{
+    height: 25rem;
+    width: 25rem;
+  }
+}
+

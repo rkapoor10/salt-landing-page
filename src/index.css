@@ -57,7 +57,11 @@ li {
   --golden-star: #ffb21e;
   font-size: 10px;
 }
-
+@media only screen and (max-width: 800px){
+  :root{
+    font-size: 4px;
+  }
+}
 /* || UTILITY CSS ---------------------------------------------------------------------------------*/
 
 .flex {

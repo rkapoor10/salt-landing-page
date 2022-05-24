@@ -1,7 +1,7 @@
 .subscription-card {
   max-width: 65%;
-  width: 100%;
   margin: auto;
+  height: auto;
   background: var(--background-color);
   box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.03),
     0px 32px 46.8519px rgba(0, 0, 0, 0.0227778),
@@ -56,4 +56,14 @@
   font-weight: 700;
   font-size: 15px;
   line-height: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .subscription-card {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  .subscription-card button {
+    padding: 4rem 11rem;
+  }
 }
