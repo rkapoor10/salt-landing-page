@@ -15,7 +15,7 @@ export const PlanCard = ({ price }) => {
       <h3>Free Plan</h3>
       <ul>
         {planFeatures.map((feature) => (
-          <li> <TiTick className="green-tick"/> {feature}</li>
+          <li key={feature}> <TiTick className="green-tick"/> {feature}</li>
         ))}
       </ul>
       <h2>{price}</h2>

@@ -13,7 +13,7 @@ export const Navbar = () => {
           <img className="logo" src="./assets/salt.svg" alt="logo" />
           <ul className="menu-options">
             {menuOptions.map((option) => (
-              <li>{option}</li>
+              <li key={option}>{option}</li>
             ))}
           </ul>
         </div>

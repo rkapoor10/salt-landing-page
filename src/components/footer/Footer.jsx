@@ -40,7 +40,7 @@ export const Footer = () => {
           <h3>Add us to your life!</h3>
           <ul>
             {socials.map(({ icon, name }) => (
-              <li className="flex flex-gap-1rem align-items-center">
+              <li key={name} className="flex flex-gap-1rem align-items-center">
                 {icon} {name}
               </li>
             ))}

@@ -15,8 +15,17 @@ export const CurrencyConvertor = () => {
   const [loading, setLoading] = useState(false);
   const requestApiHandler = async () => {
     setLoading("block");
-    const { to, from, result, rate } = await conversionApi(inputs);
-    setResponse({ to, from, result, rate });
+    if (inputs.to === inputs.from)
+      setResponse({
+        to: inputs.to,
+        from: inputs.from,
+        result: inputs.amt,
+        rate: 1,
+      });
+    else {
+      const { to, from, result, rate } = await conversionApi(inputs);
+      setResponse({ to, from, result, rate });
+    }
     setLoading(false);
   };
   return (
@@ -69,7 +78,7 @@ export const CurrencyConvertor = () => {
           </select>
           <div className="output-group">
             <label>Amount</label>
-            {response.result !="" ? (
+            {response.result != "" ? (
               <div className="output-amount">{response.result} </div>
             ) : (
               <div className="output-amount">Output</div>
