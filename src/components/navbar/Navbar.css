@@ -16,8 +16,7 @@
 }
 
 .menu-options {
-  display: none;
-  /* display: flex; */
+  display: flex;
   margin: 0 5rem 0 5rem;
   gap: 3rem;
 }
@@ -60,7 +59,7 @@
 }
 
 .hamburger-icon{
-  /* display: none; */
+  display: none;
   font-size: 3rem;
   cursor: pointer;
 }
@@ -75,5 +74,10 @@
 }
 
 @media only screen and (max-width: 800px){
-  
+  .menu-options{
+    display: none;
+  }
+  .hamburger-icon{
+    display: block;
+  }
 }
