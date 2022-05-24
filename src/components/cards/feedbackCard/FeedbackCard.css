@@ -60,3 +60,25 @@
   line-height: 1.6rem;
 }
 
+@media only screen and (max-width: 800px){
+  .feedback-container p{
+    font-size: 2rem;
+  }
+  .details .profile div:nth-child(2) h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  
+  .details .profile div:nth-child(2) p {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .details div:nth-child(2) {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

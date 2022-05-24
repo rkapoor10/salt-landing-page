@@ -44,12 +44,12 @@
     0px 25.283px 24.5283px rgba(30, 94, 243, 0.12),
     0px 10.3005px 12.2991px rgba(30, 94, 243, 0.04),
     0px 2.34102px 5.9399px rgba(30, 94, 243, 0.14);
-  border-radius: 10px;
+  border-radius: 1rem;
   border: transparent;
   color: var(--background-color);
   font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
   margin-top: 3rem;
 
 }

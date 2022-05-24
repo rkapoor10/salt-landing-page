@@ -34,8 +34,8 @@
   font-family: "HK Grotesk";
   font-style: normal;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 17px;
+  font-size: 1.3rem;
+  line-height: 1.7rem;
   letter-spacing: 0.01em;
   color: #818181;
 }
@@ -54,8 +54,8 @@
   border: transparent;
   color: var(--background-color);
   font-weight: 700;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 @media only screen and (max-width: 800px) {
