@@ -22,6 +22,10 @@
 - currency convertor for  - INR, USD, GBP, EUR
 - mobile responsive
 - api call is not made for same currency
+- Error validation on negative inputs
+
+![ss](https://user-images.githubusercontent.com/61417822/170120689-c52a71b8-9c13-4a3d-9e1b-70952bd35223.PNG)
+
 
 
 https://user-images.githubusercontent.com/61417822/170115185-5f4fa2a2-88de-4625-a0b3-ab3cc631a39a.mp4
