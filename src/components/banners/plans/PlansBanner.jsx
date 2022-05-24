@@ -13,7 +13,7 @@ export const PlansBanner = () => {
       </p>
       <ul className="flex flex-center">
         {plans.map((plan) => (
-          <PlanCard price={plan} />
+          <PlanCard key={plan} price={plan} />
         ))}
       </ul>
     </div>

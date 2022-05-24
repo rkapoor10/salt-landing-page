@@ -33,4 +33,7 @@
 .plans-banner > ul{
     margin: 3.5rem;
     gap: 3.5rem;
+    flex-wrap: wrap;
+
 }
+

@@ -11,7 +11,8 @@
   flex-direction: column;
   padding: 2rem 10rem;
   height: 25vh;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 3rem;
 }
 
 .conversion-rate {
@@ -36,7 +37,7 @@
 
 .convertor-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 4rem;
 }
@@ -48,9 +49,15 @@
   height: 5rem;
   width: 5rem;
 }
+
 .input-group{
   max-width: 30rem;
 }
+
+.output-group{
+  width: 30rem;
+}
+
 .input-group,.output-group {
   display: flex;
   flex-direction: column;
@@ -111,4 +118,20 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 .input-group input[type=number] {
   -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 800px){
+  .currency-convertor-container{
+    height:fit-content;
+  }
+  .convertor-container{
+    flex-direction: column;
+  }
+  .conversion-rate{
+    margin: auto;
+  }
+  .convertor-container button {
+    height: 8rem;
+    width: 8rem;
+  }
 }

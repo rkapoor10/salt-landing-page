@@ -3,6 +3,7 @@
   justify-content: space-around;
   align-items: center;
   max-width: 75%;
+  padding-top: 9vh;
   margin: auto;
 }
 
@@ -43,7 +44,7 @@
     0px 25.283px 24.5283px rgba(30, 94, 243, 0.12),
     0px 10.3005px 12.2991px rgba(30, 94, 243, 0.04),
     0px 2.34102px 5.9399px rgba(30, 94, 243, 0.14);
-  border-radius: 10px;
+  border-radius: 1rem;
   border: transparent;
   color: var(--background-color);
   font-weight: 700;
@@ -56,4 +57,16 @@
 .intro-hero img {
   width: 60rem;
   height: 53rem;
+}
+
+
+@media only screen and (max-width: 800px){
+  .intro-banner{
+    flex-wrap: wrap-reverse;
+  }
+
+  .intro-content button {
+    max-width: 100%;
+    padding: 6rem 5rem;
+  }
 }

@@ -4,12 +4,11 @@
   font-family: "HK Grotesk";
   font-style: normal;
   border-radius: 0.5rem;
-  width: 28.7rem;
-  height: 16.7rem;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin: 0.5rem;
 }
 
 .feedback-container p {
@@ -61,3 +60,25 @@
   line-height: 1.6rem;
 }
 
+@media only screen and (max-width: 800px){
+  .feedback-container p{
+    font-size: 2rem;
+  }
+  .details .profile div:nth-child(2) h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  
+  .details .profile div:nth-child(2) p {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  
+  .details div:nth-child(2) {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}

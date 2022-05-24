@@ -1,8 +1,13 @@
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 2rem;
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding: 1rem;
+  width: 100%;
+  z-index: 99;
 }
 
 .logo {
@@ -26,14 +31,14 @@
   cursor: pointer;
 }
 
-.menu-options li:first-child{
-    color: var(--primary-color);
+.menu-options li:first-child {
+  color: var(--primary-color);
 }
 
 .menu-options button {
   border: none;
   background-color: transparent;
-} 
+}
 
 .menu-options button:first-child {
   font-family: "HK Grotesk";
@@ -51,4 +56,37 @@
   border-radius: 2rem;
   font-weight: 700;
   color: var(--primary-color);
+}
+
+.hamburger-icon {
+  display: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+.carpet-bg {
+  position: fixed;
+  inset: 0;
+  z-index: 7;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .menu-options {
+    display: none;
+  }
+  .hamburger-icon {
+    display: block;
+    font-size: 10rem;
+  }
+  .logo {
+    width: 24.6rem;
+    height: 13.4rem;
+  }
 }
