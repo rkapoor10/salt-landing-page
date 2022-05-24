@@ -13,7 +13,7 @@ export const IntroBanner = () => {
             you don't have to.
           </p>
         </div>
-        <button>Get Started</button>
+        <button className="flex flex-center">Get Started</button>
       </div>
       <div className="intro-hero">
         <img src="./assets/hero.svg" alt="introhero" />
