@@ -112,3 +112,15 @@ input::-webkit-inner-spin-button {
 .input-group input[type=number] {
   -moz-appearance: textfield;
 }
+
+@media only screen and (max-width: 800px){
+  .currency-convertor-container{
+    height:fit-content;
+  }
+  .convertor-container{
+    flex-direction: column;
+  }
+  .conversion-rate{
+    margin: auto;
+  }
+}

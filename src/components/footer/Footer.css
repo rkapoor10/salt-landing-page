@@ -59,7 +59,7 @@ div:nth-child(3) {
   .footer-container {
     flex-direction: column;
     gap: 2rem;
-    margin-top: 45vh;
+    margin-top: 55vh;
     align-items: baseline;
     max-width: 70%;
   }

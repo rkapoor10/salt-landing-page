@@ -58,26 +58,35 @@
   color: var(--primary-color);
 }
 
-.hamburger-icon{
+.hamburger-icon {
   display: none;
   font-size: 3rem;
   cursor: pointer;
 }
 
-.carpet-bg{
-  position:fixed;
-  inset:0;
+.carpet-bg {
+  position: fixed;
+  inset: 0;
   z-index: 7;
   height: 100vh;
   width: 100vw;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-@media only screen and (max-width: 800px){
-  .menu-options{
+@media only screen and (max-width: 800px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  .menu-options {
     display: none;
   }
-  .hamburger-icon{
+  .hamburger-icon {
     display: block;
+    font-size: 10rem;
+  }
+  .logo {
+    width: 24.6rem;
+    height: 13.4rem;
   }
 }
