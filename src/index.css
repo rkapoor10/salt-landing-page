@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
 /* || RESET CSS ----------------------------------------------------------------------------------*/
 *,
 *::after,
@@ -38,37 +40,75 @@ code {
   display: block;
 }
 
-ul,li {
+ul,
+li {
   list-style-type: none;
 }
 
 :root {
-  --background-color:#FFFFFF;
-  --off-background-color:#F6F6F6;
-  --primary-color: #1E5EF3;
+  --background-color: #ffffff;
+  --off-background-color: #f6f6f6;
+  --primary-color: #1e5ef3;
+  --pure-black-color: #000000;
   --black-color: #161616;
-  --off-black-color:#434343;
+  --off-black-color: #434343;
+  --light-gray-color: #979797;
+  --green-tick: #28c800;
+  --golden-star: #ffb21e;
   font-size: 10px;
 }
 
 /* || UTILITY CSS ---------------------------------------------------------------------------------*/
 
-.flex{
+.flex {
   display: flex;
 }
 
-.flex-center{
+.flex-gap {
+  gap: 3rem;
+}
+
+.flex-gap-1rem {
+  gap: 1rem;
+}
+
+.align-items-center{
+  align-items: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
   justify-content: center;
   align-items: center;
 }
 
-.max-width-80p{
+.max-width-80p {
   max-width: 80%;
 }
 
-.width-100p{
+.width-100p {
   width: 100%;
 }
 
+.green-tick {
+  color: var(--green-tick);
+  font-size: 2rem;
+}
 
+.blue-arrow {
+  color: var(--primary-color);
+  font-size: 4rem;
+}
 
+.golden-star {
+  color: var(--golden-star);
+  font-size: 2rem;
+}
