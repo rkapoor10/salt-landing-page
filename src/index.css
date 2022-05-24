@@ -115,9 +115,9 @@ li {
 
 @media only screen and (max-width: 800px){
   :root{
-    font-size: 5px;
+    font-size: 4px;
   }
   .blue-arrow {
-    font-size: 6rem;
+    font-size: 6px;
   }
 }
