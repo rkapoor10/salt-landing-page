@@ -1,0 +1,59 @@
+.subscription-card {
+  max-width: 65%;
+  width: 100%;
+  margin: auto;
+  background: var(--background-color);
+  box-shadow: 0px 40px 80px rgba(0, 0, 0, 0.03),
+    0px 32px 46.8519px rgba(0, 0, 0, 0.0227778),
+    0px 15px 25.4815px rgba(0, 0, 0, 0.0182222);
+  border-radius: 2.1rem;
+  justify-content: space-between;
+  padding: 5rem;
+  position: absolute;
+  bottom: 30rem;
+  right: 0;
+  left: 0;
+}
+
+.subscription-card div:first-child {
+  gap: 1rem;
+}
+
+.subscription-card h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  color: var(--pure-black-color);
+  text-align: left;
+  max-width: 32rem;
+}
+
+.subscription-card p {
+  font-family: "HK Grotesk";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+  color: #818181;
+}
+
+.subscription-card button {
+  max-height: 4.9rem;
+  padding: 2rem 4rem;
+  background: var(--primary-color);
+  box-shadow: 0px 126.415px 150.943px rgba(30, 94, 243, 0.07),
+    0px 81.9357px 88.3997px rgba(30, 94, 243, 0.0531481),
+    0px 6px 48.0783px rgba(30, 94, 243, 0.2),
+    0px 25.283px 24.5283px rgba(30, 94, 243, 0.12),
+    0px 10.3005px 12.2991px rgba(30, 94, 243, 0.04),
+    0px 2.34102px 5.9399px rgba(30, 94, 243, 0.14);
+  border-radius: 10px;
+  border: transparent;
+  color: var(--background-color);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+}
