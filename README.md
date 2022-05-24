@@ -5,6 +5,9 @@
 # SALT landing page task
 ![ss](https://user-images.githubusercontent.com/61417822/170109649-414e6bde-a068-43d6-a456-7d450990dc38.PNG)
 
+## Preview  
+![recording](https://netlify-cocoon.netlify.app/.netlify/functions/fetch?code=307&path=eyJzaXRlX2lkIjoiMWVlOGI3YzgtNTkyNy00MDM2LWFlZTAtYTYxMzAzNzk2NWFhIiwiZGVwbG95X2lkIjoiNjI4ZDIyZTk3MWY4NmIwMDA4ZGNmZDAwIiwiaWQiOiI2MTI1Y2U0Zi0wNTI0LTQ3YjItODZhZi02MjM3MDYxZjFkZmYifQ==)   
+
 
 ## Live Link   
   *[Live Website](https://salt-landing-page.netlify.app/)*  
@@ -15,9 +18,14 @@
 
 ## Features
 
-- landing page
+- landing page according to given figma file
 - currency convertor for  - INR, USD, GBP, EUR
 - mobile responsive
+- api call is not made for same currency
+
+
+https://user-images.githubusercontent.com/61417822/170115185-5f4fa2a2-88de-4625-a0b3-ab3cc631a39a.mp4
+
 
 
 ## Acknowledgements - Currency Convertor API
