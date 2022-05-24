@@ -48,8 +48,8 @@
   border: transparent;
   color: var(--background-color);
   font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 15px;
+  line-height: 20px;
   margin-top: 3rem;
 
 }
